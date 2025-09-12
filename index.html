@@ -51,14 +51,17 @@
                 <a href="#home" class="nav__link active-link">Home</a>
               </li>
               <li class="nav__item">
-                <a href="#about" class="nav__link">About</a>
+                <a href="#work" class="nav__link">Work</a>
               </li>
+              
               <li class="nav__item">
                 <a href="#skills" class="nav__link">Skills</a>
               </li>
+
               <li class="nav__item">
-                <a href="#work" class="nav__link">Work</a>
+                <a href="#about" class="nav__link">About</a>
               </li>
+              
               <li class="nav__item">
                 <a href="#services" class="nav__link">Services</a>
               </li>
@@ -143,143 +146,98 @@
       </section>
 
       <!--===== About =====-->
-      <section class="about section" id="about">
-        <h2 data-heading="My Intro" class="section__title">About Me</h2>
+      <section class="work section" id="work">
+        <h2 data-heading="My Portfolio" class="section__title">Recent Works</h2>
 
-        <div class="about__container container grid">
-          <!-- <img src="assets/img/client1.JPG" alt="" class="about__img" /> -->
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span
+          ><span class="work__item" data-filter=".web">Gameplay systems</span
+          ><span class="work__item" data-filter=".app">2D</span
+          ><span class="work__item" data-filter=".design">3D</span>
+          <span class="work__item" data-filter=".security">Extra</span>
+        </div>
 
-          <div class="about__data">
-            <h3 class="about__heading">Hi, I'm Shayan Memon</h3>
-            <p class="about__description">
-  Over the past four years, I’ve specialised as a Gameplay Programmer, building 2D and 3D projects in Unity. My experience spans designing combat systems, responsive player controls, enemy navigation, and particle effects, with a focus on delivering smooth and engaging gameplay.
-</p>
-
-<p class="about__description">
-  Since 2022, I’ve worked as a freelancer on Fiverr and Upwork, collaborating with international clients and consistently delivering successful projects that earned strong feedback. Beyond freelance work, I’ve also participated in itch.io game jams, rapidly prototyping mechanics and experimenting with new ideas under tight deadlines.
-</p>
-
-<p class="about__description">
-  I’ve explored multiplayer gameplay at a foundational level using Unity’s Netcode, gaining practical insight into networking systems. These experiences have sharpened my problem-solving skills and reinforced my ability to adapt across different genres and development challenges.
-</p>
-            <div class="about__info grid">
-              <div class="about__box">
-                <i class="uil uil-award about__icon"></i>
-                <h3 class="about__title">Experience</h3>
-                <span class="about__subtitle">4 + Years</span>
-              </div>
-
-              <div class="about__box">
-                <i class="uil uil-suitcase-alt about__icon"></i>
-                <h3 class="about__title">Completed</h3>
-                <span class="about__subtitle">80 + Projects</span>
-              </div>
-
-              <div class="about__box">
-                <i class="uil uil-headphones-alt about__icon"></i>
-                <h3 class="about__title">Support</h3>
-                <span class="about__subtitle">Online 24/7</span>
-              </div>
+        <div class="work__container container grid">
+          <div class="work__card mix design">
+            <img src="assets/img/work-0.PNG" alt="" class="work__img" />
+            <h3 class="work__title">Multiplayer Racing game</h3>
+            <span class="work__button"
+              >Demo
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="portfolio__item-details">
+              <h3 class="details__title">
+                A multiplayer game to demonstrate Gameplay system
+              </h3>
+              <p class="details__description">
+                Built a real-time multiplayer 3D racing game in Unity,
+                 implementing physics-accurate car handling with WheelColliders,
+                  synchronized visual effects, and multiplayer-aware respawn logic. 
+                  Engineered centralized lap tracking and win/lose states for consistent
+                   gameplay across clients, while optimizing for mobile with smooth camera
+                    systems, responsive UI, and lightweight performance.
+              </p>
+              <ul class="details__info">
+                <li>Created - <span>5 july 2025</span></li>
+                <li>
+                  Technologies -
+                  <span
+                    >Unity, C#, netcode, UI, Particle systems, URP</span
+                  >
+                </li>
+                <li>Role - <span>3D game</span></li>
+                <li>
+                  Play Demo version(Multiplayer does not work in demo)-
+                  <span
+                    ><a
+                      href="https://shayan-memon.itch.io/demo-racing-game"
+                      target="_blank"
+                      >https://shayan-memon.itch.io/demo-racing-game</a
+                    ></span
+                  >
+                </li>
+              </ul>
             </div>
-            <a href="#contact" class="button"
-              ><i class="uil uil-navigator button__icon"></i>Contact Me</a
-            >
           </div>
+
+          <div class="work__card mix app">
+            <img src="assets/img/work-1.PNG" alt="" class="work__img" />
+            <h3 class="work__title">Battle of gears</h3>
+            <span class="work__button"
+              >Demo
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="portfolio__item-details">
+              <h3 class="details__title">
+                A boss fight game
+              </h3>
+              <p class="details__description">
+                Developed a boss-fight game with responsive player controls, special attacks, enemy AI, and unique boss mechanics, featuring smooth animations, dodge abilities, and challenging environmental obstacles.
+              </p>
+              <ul class="details__info">
+                <li>Created - <span>10 aug 2025</span></li>
+                <li>Technologies - <span>Unity 2D, C# particle systems, URP </span></li>
+                <li>Role - <span>2D fighting game</span></li>
+                <li>
+                  View -
+                  <span
+                    ><a
+                      href="https://shayan-memon.itch.io/battle-of-gears"
+                      target="_blank"
+                      >https://shayan-memon.itch.io/battle-of-gears</a
+                    ></span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          
         </div>
       </section>
+      
       <!--===== Qualification =====-->
-      <section class="qualification section">
-        <h2 data-heading="My Journey" class="section__title">Qualification</h2>
-
-        <div class="qualification__container container grid">
-          <div class="education">
-            <h3 class="qualification__title">
-              <i class="uil uil-graduation-cap"></i>
-              Education
-            </h3>
-
-            <div class="timeline">
-              <div class="timeline__item">
-                <div class="circle__dot"></div>
-                <h3 class="timeline__title">
-                  University of Sindh, Jamshoro
-                </h3>
-                <p class="timeline__text">
-                  Bachelor in IT(Information Technology)
-                </p>
-                <span class="timeline__date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2022 - 2025
-                </span>
-              </div>
-
-              <div class="timeline__item">
-                <div class="circle__dot"></div>
-                <h3 class="timeline__title">Govt. Muslim Science College</h3>
-                <p class="timeline__text">Intermediate</p>
-                <span class="timeline__date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2019 - 2021
-                </span>
-              </div>
-
-              <div class="timeline__item">
-                <div class="circle__dot"></div>
-                <h3 class="timeline__title">County Cambridge High School</h3>
-                <p class="timeline__text">Matriculation</p>
-                <span class="timeline__date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2017 - 2019
-                </span>
-              </div>
-            </div>
-          </div>
-          <!-- -- -->
-          <div class="experience">
-            <h3 class="qualification__title">
-              <i class="uil uil-suitcase"></i>
-              Experience
-            </h3>
-
-            <div class="timeline">
-              <div class="timeline__item">
-                <div class="circle__dot"></div>
-                <h3 class="timeline__title">The Dawn School</h3>
-                <p class="timeline__text">Programming Instructor</p>
-                <span class="timeline__date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2024
-                </span>
-              </div>
-
-              <div class="timeline__item">
-                <div class="circle__dot"></div>
-                <h3 class="timeline__title">Fiverr</h3>
-                <p class="timeline__text">
-                  Completed 40+ projects as a Game developer and as a
-                  Level 2 Fiverr seller.
-                </p>
-                <span class="timeline__date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2022
-                </span>
-              </div>
-
-              <div class="timeline__item">
-                <div class="circle__dot"></div>
-                <h3 class="timeline__title">Upwork</h3>
-                <p class="timeline__text">
-                  Completed 20+ game/simulation projects 
-                </p>
-                <span class="timeline__date"
-                  ><i class="uil uil-calendar-alt"></i>
-                  2022
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <!--===== Skills =====-->
       <section class="skills section" id="skills">
         <h2 data-heading="My Abilities" class="section__title">
@@ -535,661 +493,145 @@
         </div>
       </section>
       <!--===== Work =====-->
+      <section class="about section" id="about">
+        <h2 data-heading="My Intro" class="section__title">About Me</h2>
 
-      <section class="work section" id="work">
-        <h2 data-heading="My Portfolio" class="section__title">Recent Works</h2>
+        <div class="about__container container grid">
+          <!-- <img src="assets/img/client1.JPG" alt="" class="about__img" /> -->
 
-        <div class="work__filters">
-          <span class="work__item active-work" data-filter="all">All</span
-          ><span class="work__item" data-filter=".web">Gameplay systems</span
-          ><span class="work__item" data-filter=".app">2D</span
-          ><span class="work__item" data-filter=".design">3D</span>
-          <span class="work__item" data-filter=".security">Extra</span>
-        </div>
+          <div class="about__data">
+            <h3 class="about__heading">Hi, I'm Shayan Memon</h3>
+            <p class="about__description">
+  Over the past four years, I’ve specialised as a Gameplay Programmer, building 2D and 3D projects in Unity. My experience spans designing combat systems, responsive player controls, enemy navigation, and particle effects, with a focus on delivering smooth and engaging gameplay.
+</p>
 
-        <div class="work__container container grid">
-          <div class="work__card mix design">
-            <img src="assets/img/work-0.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Multiplayer Racing game</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">
-                A multiplayer game to demonstrate Gameplay system
-              </h3>
-              <p class="details__description">
-                Built a real-time multiplayer 3D racing game in Unity,
-                 implementing physics-accurate car handling with WheelColliders,
-                  synchronized visual effects, and multiplayer-aware respawn logic. 
-                  Engineered centralized lap tracking and win/lose states for consistent
-                   gameplay across clients, while optimizing for mobile with smooth camera
-                    systems, responsive UI, and lightweight performance.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>5 july 2025</span></li>
-                <li>
-                  Technologies -
-                  <span
-                    >Unity, C#, netcode, UI, Particle systems, URP</span
-                  >
-                </li>
-                <li>Role - <span>3D game</span></li>
-                <li>
-                  Play Demo version(Multiplayer does not work in demo)-
-                  <span
-                    ><a
-                      href="https://shayan-memon.itch.io/demo-racing-game"
-                      target="_blank"
-                      >https://shayan-memon.itch.io/demo-racing-game</a
-                    ></span
-                  >
-                </li>
-              </ul>
+<p class="about__description">
+  Since 2022, I’ve worked as a freelancer on Fiverr and Upwork, collaborating with international clients and consistently delivering successful projects that earned strong feedback. Beyond freelance work, I’ve also participated in itch.io game jams, rapidly prototyping mechanics and experimenting with new ideas under tight deadlines.
+</p>
+
+<p class="about__description">
+  I’ve explored multiplayer gameplay at a foundational level using Unity’s Netcode, gaining practical insight into networking systems. These experiences have sharpened my problem-solving skills and reinforced my ability to adapt across different genres and development challenges.
+</p>
+            <div class="about__info grid">
+              <div class="about__box">
+                <i class="uil uil-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">4 + Years</span>
+              </div>
+
+              <div class="about__box">
+                <i class="uil uil-suitcase-alt about__icon"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">80 + Projects</span>
+              </div>
+
+              <div class="about__box">
+                <i class="uil uil-headphones-alt about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
             </div>
+            <a href="#contact" class="button"
+              ><i class="uil uil-navigator button__icon"></i>Contact Me</a
+            >
           </div>
-
-          <div class="work__card mix app">
-            <img src="assets/img/work-1.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Battle of gears</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">
-                A boss fight game
-              </h3>
-              <p class="details__description">
-                Developed a boss-fight game with responsive player controls, special attacks, enemy AI, and unique boss mechanics, featuring smooth animations, dodge abilities, and challenging environmental obstacles.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>10 aug 2025</span></li>
-                <li>Technologies - <span>Unity 2D, C# particle systems, URP </span></li>
-                <li>Role - <span>2D fighting game</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shayan-memon.itch.io/battle-of-gears"
-                      target="_blank"
-                      >https://shayan-memon.itch.io/battle-of-gears</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- <div class="work__card mix app">
-            <img src="assets/img/work-2.png" alt="" class="work__img" />
-            <h3 class="work__title">Music Player</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">A web app to play music</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>2 Oct 2022</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Music-Player.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Music-Player.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work-3.png" alt="" class="work__img" />
-            <h3 class="work__title">Animated Login Page</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">A login page with animation</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>5 Nov 2022</span></li>
-                <li>Technologies - <span>html css</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Animated-Login-Page/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Animated-Login-Page/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work-4.png" alt="" class="work__img" />
-            <h3 class="work__title">Responsive Landing Page</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">
-                A responsive landing page of Mehran University
-              </h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>14 Aug 2021</span></li>
-                <li>Technologies - <span>html css</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/University-Landing-Page.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/University-Landing-Page.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix security">
-            <img src="assets/img/work-5.png" alt="" class="work__img" />
-            <h3 class="work__title">Random Password Generator</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">
-                A web app to Generate Random Passwords
-              </h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>6 Nov 2022</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Random-Password-Generator.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Random-Password-Generator.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix app">
-            <img src="assets/img/work-6.png" alt="" class="work__img" />
-            <h3 class="work__title">Shape Builder</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">A web app to make Shapes</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>8 nov 2022</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Shape-Builder/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Shape-Builder/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix app">
-            <img src="assets/img/work-7.png" alt="" class="work__img" />
-            <h3 class="work__title">Quote Generator</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">A web app to generate Quotes</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>15 Oct 2022</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Quote-Generator.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Quote-Generator.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work-8.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Monochrome Motion - Animated</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">An animated website</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>30 Jul 2023</span></li>
-                <li>Technologies - <span>html css bootstrap</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Monochrome-Motion.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Monochrome-Motion.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work-9.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Scribble</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">A Beautiful Website</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>27 Apr 2023</span></li>
-                <li>Technologies - <span>html css bootstrap</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Scribble.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Scribble.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix web">
-            <img src="assets/img/work-10.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Beatrice Public Library</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">A Library Website</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>1 Mar 2023</span></li>
-                <li>Technologies - <span>html css bootstrap</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Library-Website.github.io/index.html"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Library-Website.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix web">
-            <img src="assets/img/work-11.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Academia</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">An Academic Website</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>2 Aug 2023</span></li>
-                <li>Technologies - <span>html css js bootstrap</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Academia.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Academia.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work-12.png" alt="" class="work__img" />
-            <h3 class="work__title">Tasty Hasty</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">Tasty Hasty Landing Page</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>1 Sept 2023</span></li>
-                <li>Technologies - <span>html css js bootstrap</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/TastyHasty.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/TastyHasty.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix app">
-            <img src="assets/img/work-13.png" alt="" class="work__img" />
-            <h3 class="work__title">Guess The Word</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">Guess The Word App</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>7 Oct 2023</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/GuessWord.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/GuessWord.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix security">
-            <img src="assets/img/work-14.png" alt="" class="work__img" />
-            <h3 class="work__title">Caesar Cipher Web</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">Caesar Cipher</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>13 Dec 2023</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/caesar-cipher-web/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/caesar-cipher-web/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix security">
-            <img src="assets/img/work-15.png" alt="" class="work__img" />
-            <h3 class="work__title">Caesar Cipher Python</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">Caesar Cipher</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>13 Dec 2023</span></li>
-                <li>Technologies - <span>python</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://github.com/Shahzaib-D-Memon/caesar-cipher-python"
-                      target="_blank"
-                      >https://github.com/Shahzaib-D-Memon/caesar-cipher-python</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix security">
-            <img src="assets/img/work-16.png" alt="" class="work__img" />
-            <h3 class="work__title">Password Manager Python</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">Password Manager</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>14 Dec 2023</span></li>
-                <li>Technologies - <span>Python</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://github.com/Shahzaib-D-Memon/python-secure-password-manager"
-                      target="_blank"
-                      >https://github.com/Shahzaib-D-Memon/python-secure-password-manager</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work-17.png" alt="" class="work__img" />
-            <h3 class="work__title">Street Tacos</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">Street Tacos</h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>13 Nov 2023</span></li>
-                <li>Technologies - <span>HTML CSS JS</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/StreetTacos.github.io/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/StreetTacos.github.io/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="work__card mix app">
-            <img src="assets/img/work-18.PNG" alt="" class="work__img" />
-            <h3 class="work__title">Quiz App</h3>
-            <span class="work__button"
-              >Demo
-              <i class="uil uil-arrow-right work__button-icon"></i>
-            </span>
-            <div class="portfolio__item-details">
-              <h3 class="details__title">
-                The app allows users to test their knowledge on various topics
-                through an interactive and engaging quiz interface
-              </h3>
-              <p class="details__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                nihil ullam accusamus, voluptate suscipit qui quam obcaecati
-                doloremque voluptatibus vel dolor praesentium perferendis
-                architecto amet fuga unde, eius eaque placeat.
-              </p>
-              <ul class="details__info">
-                <li>Created - <span>1 July 2024</span></li>
-                <li>Technologies - <span>html css js</span></li>
-                <li>Role - <span>frontend</span></li>
-                <li>
-                  View -
-                  <span
-                    ><a
-                      href="https://shahzaib-d-memon.github.io/Quiz-App/"
-                      target="_blank"
-                      >https://shahzaib-d-memon.github.io/Quiz-App/</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div> -->
         </div>
       </section>
+      <!---->
+      <section class="qualification section">
+        <h2 data-heading="My Journey" class="section__title">Qualification</h2>
+
+        <div class="qualification__container container grid">
+          <div class="education">
+            <h3 class="qualification__title">
+              <i class="uil uil-graduation-cap"></i>
+              Education
+            </h3>
+
+            <div class="timeline">
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">
+                  University of Sindh, Jamshoro
+                </h3>
+                <p class="timeline__text">
+                  Bachelor in IT(Information Technology)
+                </p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2022 - 2025
+                </span>
+              </div>
+
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">Govt. Muslim Science College</h3>
+                <p class="timeline__text">Intermediate</p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2019 - 2021
+                </span>
+              </div>
+
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">County Cambridge High School</h3>
+                <p class="timeline__text">Matriculation</p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2017 - 2019
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- -- -->
+          <div class="experience">
+            <h3 class="qualification__title">
+              <i class="uil uil-suitcase"></i>
+              Experience
+            </h3>
+
+            <div class="timeline">
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">The Dawn School</h3>
+                <p class="timeline__text">Programming Instructor</p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2024
+                </span>
+              </div>
+
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">Fiverr</h3>
+                <p class="timeline__text">
+                  Completed 40+ projects as a Game developer and as a
+                  Level 2 Fiverr seller.
+                </p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2022
+                </span>
+              </div>
+
+              <div class="timeline__item">
+                <div class="circle__dot"></div>
+                <h3 class="timeline__title">Upwork</h3>
+                <p class="timeline__text">
+                  Completed 20+ game/simulation projects 
+                </p>
+                <span class="timeline__date"
+                  ><i class="uil uil-calendar-alt"></i>
+                  2022
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
 
       <!-- Portfolio Popup -->
 
