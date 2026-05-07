@@ -42,8 +42,13 @@ let mixerPortfolio = mixitup(".work__container", {
     target: ".work__card",
   },
   animation: {
-    duration: 300,
+    enable: false
   },
+  controls: {
+    enable: true,
+    live: true,
+    toggleLogic: 'or'
+  }
 });
 /*===== Link Active Work =====*/
 const linkWork = document.querySelectorAll(".work__item");
