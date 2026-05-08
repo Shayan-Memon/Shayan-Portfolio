@@ -337,7 +337,7 @@ input {
 
 .home {
   background: 
-    url("../img/Bg.png"),
+    url("../img/Bg.jpg"),
     radial-gradient(circle at center, hsla(0, 16%, 40%, 0.15) 0%, transparent 70%),
     linear-gradient(135deg, #37353E 0%, #2E2C35 100%);
   background-size: cover;
@@ -1625,7 +1625,7 @@ textarea.input {
   
   .home {
     background: 
-    url("../img/Bg.png"),
+    url("../img/Bg.jpg"),
     radial-gradient(circle at center, hsla(0, 16%, 40%, 0.15) 0%, transparent 70%),
     linear-gradient(135deg, #37353E 0%, #2E2C35 100%);
   }

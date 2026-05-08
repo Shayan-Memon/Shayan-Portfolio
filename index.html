@@ -18,7 +18,7 @@
     />
 
     <!--========== FAVICON ==========-->
-    <link rel="icon" type="image/png" href="assets/img/S.jpg" />
+    <link rel="icon" type="image/jpg" href="assets/img/S.jpg" />
 
     <!--========== SWIPER CSS ==========-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
@@ -133,6 +133,41 @@
   </div>
 </div>
 
+<div class="work__card mix app" data-video="assets/videos/Procedural dungeon generator.mp4">
+  <div class="work__video-container">
+    <img src="assets/img/work-2.jpg" alt="" class="work__img" />
+  </div>
+  <h3 class="work__title">Procedural Dungeon Generator</h3>
+  <span class="work__button work__preview-trigger">
+    Preview
+    <i class="uil uil-arrow-right work__button-icon"></i>
+  </span>
+  <div class="portfolio__item-details">
+    <h3 class="details__title">
+      Procedural Dungeon Generator
+    </h3>
+    <p class="details__description">
+  The Procedural Dungeon Generator project focused on creating a system that generates a unique dungeon layout each time the game starts. Using Godot’s TileMap system and GDScript, I designed a generation workflow that placed rooms based on tile coordinates while dynamically connecting them through pathways and openings.<br><br>
+
+  The generation logic worked by first creating a grid structure, then selecting valid room positions and checking surrounding tile availability before placing walls, floors, and openings. Once rooms were generated, door objects were instantiated separately and attached through scripted alignment logic that matched doorway positions with neighboring rooms.<br><br>
+
+  One of the main challenges was handling door placement and corner consistency between randomly generated rooms. Some generated layouts caused doors to overlap with walls or corners to disconnect visually. I solved this by adding directional checks and validation rules before placing openings, ensuring that doors only spawned when adjacent room connections were valid. I also implemented corner correction logic that adjusted tile placement depending on neighboring wall structures, helping maintain cleaner room transitions and reducing broken layouts.<br><br>
+
+  Another challenge was preventing isolated or unreachable rooms. To solve this, I added connection checks during generation to guarantee that each newly spawned room remained linked to the main dungeon path.<br><br>
+
+  This project improved my understanding of procedural generation, tile-based logic, coordinate systems, and dynamic object placement. It also strengthened my problem-solving skills when working with randomized systems and taught me how important validation and fallback logic are in procedural game design.
+</p>
+    <ul class="details__info">
+      <li>Created - <span>1 April 2026</span></li>
+      <li>
+        Technologies -
+        <span>Godot, GDScript, GPU particles, UI, CharacterBody, Built-in Godot animation system</span>
+      </li>
+      <li>Role - <span>2D game</span></li>
+    </ul>
+  </div>
+</div>
+
 <div class="work__card mix app" data-video="assets/videos/Castlevania_2.mp4">
   <div class="work__video-container">
     <img src="assets/img/work-6.jpg" alt="" class="work__img" />
@@ -207,7 +242,7 @@
 
 <div class="work__card mix design" data-video="assets/videos/3D MULTIPLAYER GAME.mp4">
   <div class="work__video-container">
-    <img src="assets/img/work-0.PNG" alt="" class="work__img" />
+    <img src="assets/img/work-0.jpg" alt="" class="work__img" />
   </div>
   <h3 class="work__title">Multiplayer Racing game</h3>
   <span class="work__button work__preview-trigger">
@@ -243,7 +278,7 @@
 
 <div class="work__card mix app" data-video="assets/videos/Boss_game - Trim.mp4">
   <div class="work__video-container">
-    <img src="assets/img/work-1.PNG" alt="" class="work__img" />
+    <img src="assets/img/work-1.jpg" alt="" class="work__img" />
   </div>
   <h3 class="work__title">Battle of gears</h3>
   <span class="work__button work__preview-trigger">
@@ -283,7 +318,7 @@
 
 <div class="work__card mix app" data-video="assets/videos/Football_vid.mp4">
   <div class="work__video-container">
-    <img src="assets/img/work-3.PNG" alt="" class="work__img" />
+    <img src="assets/img/work-3.jpg" alt="" class="work__img" />
   </div>
   <h3 class="work__title">Ball simulation</h3>
   <span class="work__button work__preview-trigger">
@@ -307,7 +342,7 @@
 
 <div class="work__card mix design" data-video="assets/videos/Simulation.mp4">
   <div class="work__video-container">
-    <img src="assets/img/work-4.PNG" alt="" class="work__img" />
+    <img src="assets/img/work-4.jpg" alt="" class="work__img" />
   </div>
   <h3 class="work__title">FET Department Simulation</h3>
   <span class="work__button work__preview-trigger">
